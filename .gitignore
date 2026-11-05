@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Xcode build output and per-user state
+ios/App/build/
+ios/DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Signing: certificates, profiles and App Store Connect keys never go in the repo.
+*.p12
+*.p8
+*.mobileprovision
+*.cer

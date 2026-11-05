@@ -1,0 +1,21 @@
+{
+  "appId": "io.logitory.app",
+  "appName": "Logitory",
+  "webDir": "www",
+  "backgroundColor": "#ffffff",
+  "server": {
+    "url": "https://logitory.io/login/",
+    "allowNavigation": [
+      "nddjgpzdqjbkcvrimbql.supabase.co"
+    ],
+    "errorPath": "offline.html"
+  },
+  "ios": {
+    "appendUserAgent": "LogitoryiOS",
+    "contentInset": "never",
+    "scrollEnabled": true,
+    "allowsLinkPreview": false,
+    "limitsNavigationsToAppBoundDomains": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

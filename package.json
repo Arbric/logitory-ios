@@ -1,0 +1,20 @@
+{
+  "name": "logitory-ios",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Logitory for iPhone and iPad: a Capacitor shell around https://logitory.io/login/",
+  "scripts": {
+    "sync": "cap sync ios",
+    "open": "cap open ios",
+    "icons": "capacitor-assets generate --ios"
+  },
+  "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/ios": "^8.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.0"
+  }
+}
