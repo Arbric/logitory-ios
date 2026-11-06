@@ -53,6 +53,8 @@
 	</array>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Logitory uses your location only when you tap Copy Current Location, to copy your vehicle's position.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Logitory uses the camera only when you tap the barcode button, to scan part barcodes.</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>UISupportedInterfaceOrientations</key>
